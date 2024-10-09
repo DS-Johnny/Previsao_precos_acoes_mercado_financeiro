@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Johnny\Desktop\UNIVESP\PI4\pi4_env
+set VIRTUAL_ENV=C:\Users\Johnny\Desktop\PI4\Previsao_precos_acoes_mercado_financeiro\pi4_env
 
 if not defined PROMPT set PROMPT=$P$G
 
