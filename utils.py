@@ -10,5 +10,5 @@ def plot_graph(ticket, period, interval):
     # Remover finais de semana e feriados (dias sem negociação)
     dados = dados.dropna().reset_index()
 
-    fig = px.line(dados, x='Date', y='Close')
+    fig = px.line(dados, x='Date', y='Close', title=f'Cotação de {ticket} ({period})')
     return fig
